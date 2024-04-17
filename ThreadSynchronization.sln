@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", "{BAC33D79-0FD7-467F-9052-BB0D62984273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{3487E8E1-B284-4674-B415-8C5C287F3518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{E7AAE0D2-6BC0-4CC0-A1D1-21BED81E296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC33D79-0FD7-467F-9052-BB0D62984273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC33D79-0FD7-467F-9052-BB0D62984273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC33D79-0FD7-467F-9052-BB0D62984273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC33D79-0FD7-467F-9052-BB0D62984273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3487E8E1-B284-4674-B415-8C5C287F3518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3487E8E1-B284-4674-B415-8C5C287F3518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3487E8E1-B284-4674-B415-8C5C287F3518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3487E8E1-B284-4674-B415-8C5C287F3518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AAE0D2-6BC0-4CC0-A1D1-21BED81E296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AAE0D2-6BC0-4CC0-A1D1-21BED81E296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AAE0D2-6BC0-4CC0-A1D1-21BED81E296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AAE0D2-6BC0-4CC0-A1D1-21BED81E296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
