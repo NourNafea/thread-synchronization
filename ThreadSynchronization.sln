@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEvent", "ManualResetEvent\ManualResetEvent.csproj", "{0F2CE48F-4B0C-4595-B8DA-2A1B2C3CA1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEvent", "AutoResetEvent\AutoResetEvent.csproj", "{24D97F46-EE6D-4C08-BFEC-82C861D18DC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0BB5E6C-6518-469F-9C62-11BA1CA552C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2CE48F-4B0C-4595-B8DA-2A1B2C3CA1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2CE48F-4B0C-4595-B8DA-2A1B2C3CA1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2CE48F-4B0C-4595-B8DA-2A1B2C3CA1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2CE48F-4B0C-4595-B8DA-2A1B2C3CA1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D97F46-EE6D-4C08-BFEC-82C861D18DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D97F46-EE6D-4C08-BFEC-82C861D18DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D97F46-EE6D-4C08-BFEC-82C861D18DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D97F46-EE6D-4C08-BFEC-82C861D18DC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
