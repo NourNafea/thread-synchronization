@@ -1,4 +1,4 @@
-﻿var autoResetEvent = new AutoResetEvent(false);
+﻿var autoResetEvent = new AutoResetEvent(true);
 
 for (var i = 0; i < 5; i++)
 {
