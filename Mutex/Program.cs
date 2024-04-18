@@ -1,4 +1,4 @@
-﻿var mutex = new Mutex();
+﻿var semaphore = new Semaphore(1, 1);
 
 for (var i = 0; i < 5; i++)
 {
@@ -10,9 +10,9 @@ return;
 void Write()
 {
     Console.WriteLine($"Thread {Environment.CurrentManagedThreadId} is waiting for Writing.");
-    mutex.WaitOne();
+    semaphore.WaitOne();
     Console.WriteLine($"Thread {Environment.CurrentManagedThreadId} is writing.");
     Thread.Sleep(5000);
     Console.WriteLine($"Thread {Environment.CurrentManagedThreadId} is done writing.");
-    mutex.ReleaseMutex();
+    semaphore.Release();
 }
